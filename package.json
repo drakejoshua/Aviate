@@ -1,0 +1,22 @@
+{
+  "name": "aviate",
+  "version": "1.0.0",
+  "description": "A sample web project that i'm using to practice javascript libraries uasge using html. css, tailwindCSS, javascript and the jarallax.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drakejoshua/Aviate.git"
+  },
+  "author": "Mabawonku Joshua",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/drakejoshua/Aviate/issues"
+  },
+  "homepage": "https://github.com/drakejoshua/Aviate#readme",
+  "dependencies": {
+    "jarallax": "^2.1.4"
+  }
+}
