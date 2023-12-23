@@ -39,7 +39,7 @@
     <header class="bg-no-repeat bg-cover h-screen jarallax">
 
         <!-- navbar -->
-        <nav class="w-4/5 mx-auto flex justify-between items-center py-4 text-white">
+        <nav class="w-11/12 lg:w-4/5 mx-auto flex flex-wrap justify-between items-center py-4 text-white">
 
             <!-- nav logo -->
             <a href="#" class="flex flex-col capitalize text-lg">
@@ -54,78 +54,84 @@
                 </span>
             </a>
 
+            <!-- nav hamburger icon -->
+            <span class="fas fa-bars text-2xl lg:hidden"></span>
 
-            <!-- nav links -->
-            <div class="flex gap-x-6">
+            <!-- nav container -->
+            <div class="lg:flex items-center justify-between mt-3 lg:w-4/5 w-full h-0 lg:h-fit overflow-hidden">
 
-                <a href="#" class="capitalize">portfolio</a>
+                <!-- nav links -->
+                <div class="flex flex-col lg:flex-row gap-x-6 gap-y-1">
 
-                <!-- nav dropdown -->
-                <div class="flex flex-col capitalize gap-y-2 group/dropdown">
-                    <a href="#" class="group/dropdownLink">
-                        subsidiaries
+                    <a href="#" class="capitalize">portfolio</a>
 
-                        <span class="fas fa-caret-up hidden group-hover/dropdownLink:inline-block"></span>
-                        <span class="fas fa-caret-down group-hover/dropdownLink:hidden"></span>
-                    </a>
+                    <!-- nav dropdown -->
+                    <div class="flex flex-col capitalize gap-y-2 group/dropdown">
+                        <a href="#" class="group/dropdownLink">
+                            subsidiaries
 
-                    <div class="absolute top-16 flex-col gap-y-1 hidden group-hover/dropdown:flex">
-                        <a href="#" class="capitalize">the hanger</a>
+                            <span class="fas fa-caret-up hidden group-hover/dropdownLink:inline-block"></span>
+                            <span class="fas fa-caret-down group-hover/dropdownLink:hidden"></span>
+                        </a>
 
-                        <a href="#" class="capitalize">rapid air health</a>
+                        <div class="lg:absolute lg:top-16 ps-2 flex-col gap-y-1 hidden group-hover/dropdown:flex">
+                            <a href="#" class="capitalize">the hanger</a>
 
-                        <a href="#" class="capitalize">air secure+</a>
+                            <a href="#" class="capitalize">rapid air health</a>
 
-                        <a href="#" class="capitalize">deportivo</a>
+                            <a href="#" class="capitalize">air secure+</a>
 
+                            <a href="#" class="capitalize">deportivo</a>
+
+                        </div>
                     </div>
-                </div>
 
-                <a href="#" class="capitalize">careers</a>
-                
-                <!-- nav dropdown -->
-                <div class="flex flex-col capitalize gap-y-2 group/dropdown">
-                    <a href="#" class="group/dropdownLink">
-                        hangars
-
-                        <span class="fas fa-caret-up hidden group-hover/dropdownLink:inline-block"></span>
-                        <span class="fas fa-caret-down group-hover/dropdownLink:hidden"></span>
-                    </a>
-
-                    <div class="absolute top-16 flex-col gap-y-1 hidden group-hover/dropdown:flex">
-                        <a href="#" class="capitalize">australia</a>
-
-                        <a href="#" class="capitalize">phillipines</a>
-
-                        <a href="#" class="capitalize">germany</a>
-
-                        <a href="#" class="capitalize">united states</a>
-
-                    </div>
-                </div>
-
-                <a href="#" class="capitalize">careers</a>
-            </div>
-
-
-            <!-- nav call-to-action and contact info -->
-            <div class="flex gap-x-5 items-center">
-
-                <!-- nav contact number -->
-                <span>
-                    <span class="fas fa-phone-alt"></span>
+                    <a href="#" class="capitalize">careers</a>
                     
-                    +1 ( 234 ) 188-2367
-                </span>
-                
-                <!-- nav cta button -->
-                <button class="bg-white text-black py-2 px-4 rounded-3xl capitalize text-sm font-semibold flex gap-x-3 items-center">
+                    <!-- nav dropdown -->
+                    <div class="flex flex-col capitalize gap-y-2 group/dropdown">
+                        <a href="#" class="group/dropdownLink">
+                            hangars
+
+                            <span class="fas fa-caret-up hidden group-hover/dropdownLink:inline-block"></span>
+                            <span class="fas fa-caret-down group-hover/dropdownLink:hidden"></span>
+                        </a>
+
+                        <div class="lg:absolute lg:top-16 ps-2 flex-col gap-y-1 hidden group-hover/dropdown:flex">
+                            <a href="#" class="capitalize">australia</a>
+
+                            <a href="#" class="capitalize">phillipines</a>
+
+                            <a href="#" class="capitalize">germany</a>
+
+                            <a href="#" class="capitalize">united states</a>
+
+                        </div>
+                    </div>
+
+                    <a href="#" class="capitalize">careers</a>
+                </div>
+
+
+                <!-- nav call-to-action and contact info -->
+                <div class="flex gap-x-5 items-center justify-between mt-2 lg:m-0">
+
+                    <!-- nav contact number -->
                     <span>
-                        get in touch
+                        <span class="fas fa-phone-alt"></span>
+                        
+                        +1 ( 234 ) 188-2367
                     </span>
-    
-                    <span class="fas fa-arrow-right"></span>
-                </button>
+                    
+                    <!-- nav cta button -->
+                    <button class="bg-white text-black py-2 px-4 rounded-3xl capitalize text-sm font-semibold flex gap-x-3 items-center">
+                        <span>
+                            get in touch
+                        </span>
+
+                        <span class="fas fa-arrow-right"></span>
+                    </button>
+                </div>
             </div>
         </nav>
 
@@ -133,18 +139,18 @@
         <!-- hero text and headings -->
 
         <!-- headings -->
-        <div class="w-4/5 mx-auto flex justify-between items-start text-white capitalize font-semibold mt-28">
-            <h1 class="text-3xl w-1/3 leading-snug">
+        <div class="w-11/12 lg:w-4/5 mx-auto flex justify-between items-start text-white capitalize font-semibold mt-28">
+            <h1 class="text-3xl lg:w-1/3 leading-snug w-full">
                 powering innovations in air logistics.
             </h1>
             
-            <h1 class="text-3xl w-1/3 leading-snug">
+            <h1 class="text-3xl w-1/3 leading-snug hidden lg:block">
                 through ground-breaking workflows and hampering.
             </h1>
         </div>
 
         <!-- text -->
-        <div class="w-4/5 mx-auto flex justify-between items-start text-white mt-7">
+        <div class="w-11/12 lg:w-4/5 mx-auto flex justify-between items-start text-white mt-7">
             <button class="bg-white text-black py-2 px-4 rounded-3xl capitalize font-semibold flex gap-x-3 items-center">
                 <span>
                     learn more
@@ -153,7 +159,7 @@
                 <span class="fas fa-arrow-right text-lg"></span>
             </button>
 
-            <p class="w-1/3">
+            <p class="w-1/3 hidden lg:block">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Corrupti possimus nesciunt, 
                 nam quisquam quia dignissimos unde accusantium, 
