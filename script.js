@@ -12,8 +12,6 @@ jarallax( slowJarallaxElements, {
 
 jarallax( fastJarallaxElements, {
     speed: 0.1,
-    imgSize: "cover",
-    imgPosition: "",
 });
 
 
