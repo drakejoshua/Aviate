@@ -18,5 +18,8 @@
   "homepage": "https://github.com/drakejoshua/Aviate#readme",
   "dependencies": {
     "jarallax": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
   }
 }

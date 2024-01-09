@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "no-undef": "warn"
+    }
+}

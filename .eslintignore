@@ -1,0 +1,4 @@
+# ignore the node_modules, all .html and .css
+node_modules/
+*.html
+*.css
