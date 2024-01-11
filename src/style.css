@@ -1,0 +1,12 @@
+header{
+    background-image: url("../assets/hero.jpg");
+}
+
+section.sponsor-section {
+    background-image: url("../assets/side-plane.jpg");
+}
+
+section.cockpit {
+    background-image: url("../assets/cockpit.jpg");
+    background-position: 50% 50%;
+}

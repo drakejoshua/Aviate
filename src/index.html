@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- page's metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- page's title -->
+    <title>Home - Aviate</title>
+
+    <!-- link to the tailwind css resource cdn -->
+    <script src="https://cdn.tailwindcss.com" type="module"></script>   
+    
+    <!-- link to fontawesome icon resource cdn -->
+    <script src="https://kit.fontawesome.com/c963c47e7a.js" crossorigin="anonymous" type="module"></script>
+</head>
+<body>
+
+    <!-- page's hero -->
+    <header class="bg-no-repeat bg-cover h-screen jarallax" style="background-image: url('../assets/hero.jpg');">
+
+        <!-- navbar -->
+        <nav class="w-11/12 lg:w-4/5 mx-auto flex flex-wrap justify-between items-center py-4 text-white">
+
+            <!-- nav logo -->
+            <a href="#" class="flex flex-col capitalize text-lg font-semibold">
+                <span>
+                    aviate 
+
+                    <span class="fas fa-plane text-xl -rotate-45"></span>
+                </span>
+
+                <span>
+                    logistics
+                </span>
+            </a>
+
+            <!-- nav hamburger icon -->
+            <span class="fas fa-bars text-2xl lg:hidden cursor-pointer" id="menu-btn"></span>
+
+            <!-- nav container -->
+            <div class="lg:flex items-center justify-between mt-3 lg:w-4/5 w-full h-0 lg:h-fit overflow-hidden" id="nav-ctn">
+
+                <!-- nav links -->
+                <div class="flex flex-col lg:flex-row gap-x-6 gap-y-1">
+
+                    <a href="#" class="capitalize">portfolio</a>
+
+                    <!-- nav dropdown -->
+                    <div class="flex flex-col capitalize gap-y-2 group/dropdown">
+                        <a href="#" class="group/dropdownLink">
+                            subsidiaries
+
+                            <span class="fas fa-caret-up hidden group-hover/dropdownLink:inline-block"></span>
+                            <span class="fas fa-caret-down group-hover/dropdownLink:hidden"></span>
+                        </a>
+
+                        <div class="lg:absolute lg:top-20 ps-2 lg:ps-0 flex-col gap-y-1 hidden group-hover/dropdown:flex">
+                            <a href="#" class="capitalize">the hanger</a>
+
+                            <a href="#" class="capitalize">rapid air health</a>
+
+                            <a href="#" class="capitalize">air secure+</a>
+
+                            <a href="#" class="capitalize">deportivo</a>
+
+                        </div>
+                    </div>
+
+                    <a href="#" class="capitalize">careers</a>
+                    
+                    <!-- nav dropdown -->
+                    <div class="flex flex-col capitalize gap-y-2 group/dropdown">
+                        <a href="#" class="group/dropdownLink">
+                            hangars
+
+                            <span class="fas fa-caret-up hidden group-hover/dropdownLink:inline-block"></span>
+                            <span class="fas fa-caret-down group-hover/dropdownLink:hidden"></span>
+                        </a>
+
+                        <div class="lg:absolute lg:top-20 ps-2 lg:ps-0 flex-col gap-y-1 hidden group-hover/dropdown:flex">
+                            <a href="#" class="capitalize">australia</a>
+
+                            <a href="#" class="capitalize">phillipines</a>
+
+                            <a href="#" class="capitalize">germany</a>
+
+                            <a href="#" class="capitalize">united states</a>
+
+                        </div>
+                    </div>
+
+                    <a href="#" class="capitalize">careers</a>
+                </div>
+
+
+                <!-- nav call-to-action and contact info -->
+                <div class="flex gap-x-5 items-center justify-between mt-2 lg:m-0">
+
+                    <!-- nav contact number -->
+                    <span>
+                        <span class="fas fa-phone-alt"></span>
+                        
+                        +1 ( 234 ) 188-2367
+                    </span>
+                    
+                    <!-- nav cta button -->
+                    <button class="bg-white text-black py-2 px-4 rounded-3xl capitalize text-sm font-semibold flex gap-x-3 items-center">
+                        <span>
+                            get in touch
+                        </span>
+
+                        <span class="fas fa-arrow-right"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- hero text and headings -->
+
+        <!-- headings -->
+        <div class="w-11/12 lg:w-4/5 mx-auto flex justify-between items-start text-white capitalize font-semibold mt-28">
+            <h1 class="text-3xl lg:w-1/3 leading-snug w-full">
+                powering innovations in air logistics.
+            </h1>
+            
+            <h1 class="text-3xl w-1/3 leading-snug hidden lg:block">
+                through ground-breaking workflows and hampering.
+            </h1>
+        </div>
+
+        <!-- text -->
+        <div class="w-11/12 lg:w-4/5 mx-auto flex justify-between items-start text-white mt-7">
+            <button class="bg-white text-black py-2 px-4 rounded-3xl capitalize font-semibold flex gap-x-3 items-center">
+                <span>
+                    learn more
+                </span>
+
+                <span class="fas fa-arrow-right text-lg"></span>
+            </button>
+
+            <p class="w-1/3 hidden lg:block">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Corrupti possimus nesciunt, 
+                nam quisquam quia dignissimos unde accusantium, 
+                delectus odit deleniti sint voluptatum adipisci vitae. 
+                Non magni exercitationem repellendus minima temporibus.
+            </p>
+        </div>
+    </header>
+
+
+    <!-- page's section - features -->
+    <section class="py-24">
+
+        <!-- internal container -->
+        <div class="w-11/12 lg:w-4/5 mx-auto">
+
+            <h2 class="text-3xl font-semibold capitalize text-center mb-24">
+                moving your air cargo from point a to point b
+            </h2>
+
+
+            <div class="flex flex-wrap lg:flex-nowrap gap-x-14 gap-y-14">
+
+                <div class="flex flex-col gap-y-5">
+
+                    <div class="flex flex-col gap-y-3.5 items-start">
+                        <span class="fas fa-plane text-xl py-2 px-3 shadow-md rounded-lg"></span>
+
+                        <h3 class="text-xl font-semibold capitalize">
+                            Faster Departures
+                        </h3>
+                    </div>
+
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, 
+                        deserunt incidunt dolore officia odit, temporibus quidem maxime doloremque 
+                        <!-- nostrum rerum ducimus ipsam consequatur, porro reiciendis repudiandae -->
+                        <!-- laboriosam sapiente autem! Possimus. -->
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-y-5">
+
+                    <div class="flex flex-col gap-y-3.5 items-start">
+                        <span class="far fa-clock text-xl py-2 px-3 shadow-md rounded-lg"></span>
+
+                        <h3 class="text-xl font-semibold capitalize">
+                            No delays. immediate support
+                        </h3>
+                    </div>
+
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, 
+                        deserunt incidunt dolore officia odit, temporibus quidem maxime doloremque 
+                        <!-- nostrum rerum ducimus ipsam consequatur, porro reiciendis repudiandae -->
+                        <!-- laboriosam sapiente autem! Possimus. -->
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-y-5">
+
+                    <div class="flex flex-col gap-y-3.5 items-start">
+                        <span class="fas fa-redo text-xl py-2 px-3 shadow-md rounded-lg"></span>
+
+                        <h3 class="text-xl font-semibold capitalize">
+                            discounts on return business
+                        </h3>
+                    </div>
+
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, 
+                        deserunt incidunt dolore officia odit, temporibus quidem maxime doloremque 
+                        <!-- nostrum rerum ducimus ipsam consequatur, porro reiciendis repudiandae -->
+                        <!-- laboriosam sapiente autem! Possimus. -->
+                    </p>
+                </div>
+
+                <div class="flex flex-col gap-y-5">
+
+                    <div class="flex flex-col gap-y-3.5 items-start">
+                        <span class="fas fa-truck-loading text-xl py-2 px-3 shadow-md rounded-lg"></span>
+
+                        <h3 class="text-xl font-semibold capitalize">
+                            off-airport haulage
+                        </h3>
+                    </div>
+
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, 
+                        deserunt incidunt dolore officia odit, temporibus quidem maxime doloremque 
+                        <!-- nostrum rerum ducimus ipsam consequatur, porro reiciendis repudiandae -->
+                        <!-- laboriosam sapiente autem! Possimus. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- page's section - section -->
+    <section class="flex justify-center lg:justify-end items-end sponsor-section bg-cover bg-no-repeat fastJarallax h-screen"
+        style="background-image: url(../assets/side-plane.jpg);">
+
+        <!-- section side content -->
+        <div class="w-full h-1/2 lg:h-full lg:w-1/2 px-4 py-8 lg:p-40 bg-white sponsor-subsection">
+            <h2 class="capitalize font-semibold text-3xl mb-2.5 lg:mb-5 leading-snug">
+                proudly sponsored by air phillipines
+            </h2>
+
+            <p class="mb-6 lg:mb-16">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Porro sit aut eos cupiditate beatae molestiae qui tempore, 
+                a, enim cumque nesciunt dignissimos nisi ad quis obcaecati 
+                aliquid eveniet accusamus consequatur?
+            </p>
+
+            <button class="bg-black text-white py-2 px-4 rounded-3xl capitalize font-semibold flex gap-x-3 items-center">
+                <span>
+                    learn more
+                </span>
+
+                <span class="fas fa-arrow-right text-lg"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- page's section - cockpit -->
+    <section class="h-screen cockpit bg-cover bg-no-repeat flex flex-col justify-center items-center gap-y-10 lg:gap-y-16 jarallax"
+        style="background-image: url(../assets/cockpit.jpg);">
+        <h2 class="capitalize text-center text-3xl leading-snug text-white font-semibold lg:w-1/3 w-full mx-auto">
+            join us in the cockpit as we take your cargo to the next level
+        </h2>
+
+        <button class="bg-white text-black py-2 px-4 rounded-3xl capitalize font-semibold flex gap-x-3 items-center">
+            <span>
+                get started
+            </span>
+
+            <span class="fas fa-arrow-right text-lg"></span>
+        </button>
+    </section>
+
+    <!-- script src to custom script file -->
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
