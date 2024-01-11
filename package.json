@@ -20,6 +20,8 @@
     "jarallax": "^2.1.4"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^8.56.0",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0"
   }
 }
