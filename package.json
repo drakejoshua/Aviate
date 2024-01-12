@@ -2,9 +2,9 @@
   "name": "aviate",
   "version": "1.0.0",
   "description": "A sample web project that i'm using to practice javascript libraries uasge using html. css, tailwindCSS, javascript and the jarallax.js library",
-  "main": "index.js",
+  "source": "./src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d ./dist --repo https://github.com/drakejoshua/Aviate.git"
   },
   "repository": {
     "type": "git",
